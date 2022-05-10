@@ -1,35 +1,7 @@
 # Trellox
 
-This template should help get you started developing with Vue 3 in Vite.
+<p>Trellox is an App inspired by Trello </p>
+<p>The app was built with the latest web technologies such as Node.js, Vue.js, Vuex, MongoDB, and Socket.IO</p>
+<p>Allows the user to create a board for project management, business, design, education, marketing, and more </p>
 
-## Recommended IDE Setup
-
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.vscode-typescript-vue-plugin).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Run Unit Tests with [Vitest](https://vitest.dev/)
-
-```sh
-npm run test:unit
-```
+<a href="https://trelloxx.herokuapp.com/#/" target="blank">Link to Trellox</a>
