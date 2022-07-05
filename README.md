@@ -5,4 +5,4 @@
 <p>Allows the user to create a board for project management, business, design, education, marketing, and more </p>
 
 <p><a href="https://trelloxx.herokuapp.com/#/" target="blank">Link to Trellox</a> </p>
-<p><a href="https://github.com/shaniKupiec/Trellox--Backend" target="blank">Github Backend Code</a> </p>
+<p><a href="https://github.com/shaniKupiec/Trellox--Backend" target="blank">Backend Code</a> </p>
