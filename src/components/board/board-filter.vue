@@ -2,9 +2,6 @@
   <custom-modal @closeModal="closeModal" class="board-filter-body">
     <template v-slot:header> Filter </template>
     <section>
-      <!-- <p>Keyword</p> -->
-      <!-- <input v-focus v-model="filterBy.txt" class="custom-input" type="text" placeholder="Enter a keyword..." /> -->
-      <!-- <p class="mini">Search cards, members, labels, and more.</p> -->
       <div>
         <p>Members</p>
         <ul>
@@ -26,7 +23,6 @@
               </div>
               <span class="label-txt">{{ member.fullname }}</span>
               <span class="username">@{{ member.username }}</span>
-              <!-- <span class="label-txt">{{ member.fullname === loggedinUserFullname ? member.fullname : 'Cards assigned to me' }}</span> -->
             </label>
           </li>
         </ul>
@@ -83,8 +79,6 @@
           </li>
         </ul>
       </div>
-      <!-- {{ filterBy.label.options }}
-      {{ filterBy.by.options }} -->
     </section>
   </custom-modal>
 </template>

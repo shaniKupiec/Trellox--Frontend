@@ -15,8 +15,6 @@
       </ul>
       <button v-if="labels.length" class="custom-btn" @click.stop="startCreating(null)">Create new label</button>
       <button v-else class="custom-btn" @click.stop="startCreating(filterBy, true)">Create new "{{ filterBy }}"" label</button>
-      <!-- <hr />
-      <button class="custom-btn">Enable color blind friendly mode</button> -->
     </custom-modal>
 
     <custom-modal v-if="newLabel && !wantToDelete" @closeModal="closeModal" @goBack="goBack" :style="`left: ${posLeft}px`" :isFirstPage="false">

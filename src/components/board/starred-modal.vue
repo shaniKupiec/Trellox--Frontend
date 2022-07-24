@@ -14,7 +14,6 @@
       <img src="https://a.trellocdn.com/prgb/dist/images/starred-boards-menu/starred-board.cc47d0a8c646581ccd08.svg" />
       <p>Star important boards to access them quickly and easily.</p>
     </div>
-    <!-- {{ starredBoards }} -->
   </custom-modal>
 </template>
 

@@ -7,12 +7,9 @@ import 'v-calendar/dist/style.css';
 import { focusDirective, clickOutside } from './directives'
 import { SetupCalendar } from 'v-calendar';
 import gAuthPlugin from 'vue3-google-oauth2'
-let gauthClientId = '438420074378-5cu9up50dsabv90v8ak9p72vrmfgdaod.apps.googleusercontent.com'
+let gAuthClientId = '438420074378-5cu9up50dsabv90v8ak9p72vrmfgdaod.apps.googleusercontent.com'
 
 import { registerSW } from 'virtual:pwa-register'
-
-
-
 
 const app = createApp(App)
 
@@ -21,10 +18,11 @@ app.directive('click-outside', clickOutside)
 registerSW({ immediate: true })
 
 app.use(gAuthPlugin, {
-    clientId: gauthClientId,
+    clientId: gAuthClientId,
     scope: 'email',
     prompt: 'consent'
 })
+
 app.use(SetupCalendar, {})
 app.use(router)
 app.use(store)

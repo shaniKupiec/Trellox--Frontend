@@ -5,7 +5,6 @@
       <li>
         <label
           >Computer
-
           <input type="file" @change="onUploadImg" />
         </label>
       </li>

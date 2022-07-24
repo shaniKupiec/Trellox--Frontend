@@ -24,7 +24,6 @@
       <Container drag-class="on-dragging" class="card-preview-container" @drop="onCardDrop(group, $event)" group-name="1" :get-child-payload="getChildPayload">
         <Draggable v-for="card in group.cards" :key="card.id">
           <card-preview v-if="card.isShown" @openQuickEdit="openQuickEdit" @closeQuickEdit="closeQuickEdit" :groupId="group.id" :isQuickEdit="isQuickEdit" :cardToCopy="card" />
-          <!-- {{ card.title }} {{ card.isShown }} -->
         </Draggable>
 
         <div class="add-card-container" v-if="isAddCard">

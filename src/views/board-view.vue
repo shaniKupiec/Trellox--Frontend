@@ -176,7 +176,6 @@ export default {
       }
     },
     async setBoardBg(boardBg) {
-      // this.board.style.bgImgUrl = boardBg
       const board = JSON.parse(JSON.stringify(this.board))
       board.style.bgColor = ''
       board.style.bgHeader = ''
