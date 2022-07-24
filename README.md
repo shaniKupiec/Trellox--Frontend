@@ -1,35 +1,29 @@
-# Trellox
+# Trellox Frontend
 
-This template should help get you started developing with Vue 3 in Vite.
+<p>Trellox is an App inspired by Trello. Trello is the ultimate project management tool .Start up a board in seconds, automate tedious tasks, and collaborate anywhere, even on mobile</p>
 
-## Recommended IDE Setup
+<p><a href="https://trelloxx.herokuapp.com/#/" target="blank">Link to Trellox</a> </p>
+<p><a href="https://github.com/shaniKupiec/Trellox--Backend" target="blank">Backend Code</a> </p>
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.vscode-typescript-vue-plugin).
+![image not found](https://res.cloudinary.com/trellox/image/upload/v1657785931/github%20-%20readme/trellox_jogefx.jpg)
 
-## Customize configuration
+## Frontend Tech
+- Vue.js
+- Vuex
+- Axios
+- Chart.js,
+- Socket.io-client
+- SCSS
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Run Unit Tests with [Vitest](https://vitest.dev/)
-
-```sh
-npm run test:unit
-```
+## Features
+- Login, register and logout
+- Login with Google
+- Board CRUD, List CRUD, Task CRUD
+- Search, Filter
+- User can add to a card: members, labels, checklists, due-date, attachments, cover and stickers
+- More actions with card: make copy, move to another list or board, watch, share and record a video
+- Dashboard with information about the board
+- Searching photos using unsplash
+- Drag and drop list and task
+- Using reusable component for the pop up modal
+- Creating directive for closing modals when the area outside the modal is clicked
